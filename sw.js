@@ -1,14 +1,14 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
-    caches.open('PWA_X').then((cache) => cache.addAll([
-      '/',
-      '/index.html',
-      '/index.js',
-      '/style.css',
-      '/images/fox1.jpg',
-      '/images/fox2.jpg',
-      '/images/fox3.jpg',
-      '/images/fox4.jpg',
+    caches.open('app_X').then((cache) => cache.addAll([
+      '/app_X/',
+      '/app_X/index.html',
+      '/app_X/index.js',
+      '/app_X/style.css',
+      '/app_X/images/fox1.jpg',
+      '/app_X/images/fox2.jpg',
+      '/app_X/images/fox3.jpg',
+      '/app_X/images/fox4.jpg',
     ])),
   );
 });
