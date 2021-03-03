@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "Progressive Web App X",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/fox-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Progressive Web App X",
+  "short_name": "PWA_X",
+  "start_url": "/index.html"
+}
